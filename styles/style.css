@@ -1,0 +1,21 @@
+/* Tuomas Polvinen */
+
+.container-fluid {
+    background-color: blueviolet;
+}
+
+.container {
+    margin: auto;
+}
+
+.row {
+    border: 1px solid black;
+}
+
+.col {
+    border: 1px solid black;
+}
+
+#tähti {
+    border: 1px solid black;
+}
