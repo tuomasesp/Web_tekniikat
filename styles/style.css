@@ -12,10 +12,28 @@
     border: 1px solid black;
 }
 
-.col {
-    border: 1px solid black;
+#etenee {
+    height: 50px;
+    width: 100px;
+    padding: 50px;
+    text-align: center;
 }
 
 #tähti {
     border: 1px solid black;
+}
+
+#lista {
+    background-color: rgb(37, 225, 197);
+    margin: auto;
+}
+
+#enn {
+    background-color: bisque;
+    margin: auto;
+}
+
+#log {
+    background-color: aquamarine;
+    margin: auto;
 }
