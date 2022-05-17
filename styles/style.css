@@ -1,11 +1,17 @@
 /* Tuomas Polvinen */
 
+body {
+    background-image: url(../images/lion.jpg); /* https://pixabay.com/fi/photos/leijona-saalistaja-harja-iso-kissa-3317670/ */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container-fluid {
     background-color: blueviolet;
 }
 
 .container {
-    margin: auto;
+    margin: 30px;
 }
 
 .row {
