@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-    background-color: blueviolet;
+    background-color: #0DCDFF;
 }
 
 .container {
@@ -42,4 +42,10 @@ body {
 #log {
     background-color: aquamarine;
     margin: auto;
+}
+
+/* pelaajat.html sisällön stylejä */ 
+
+.accordion-button {
+    background-color: #0044FF;
 }
