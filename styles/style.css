@@ -14,8 +14,19 @@ body {
     margin: 30px;
 }
 
+footer {
+    background-color: #0DCDFF;
+    text-align: center;
+}
+
 .row {
     border: 1px solid black;
+}
+
+/* https://pixabay.com/fi/vectors/suomi-kartta-lippu-eurooppa-maa-881128/  */
+#suomi {
+    height: 500px;
+    width: 200px;
 }
 
 #etenee {
@@ -30,17 +41,17 @@ body {
 }
 
 #lista {
-    background-color: rgb(37, 225, 197);
+    background-color: #0C80E8;
     margin: auto;
 }
 
 #enn {
-    background-color: bisque;
+    background-color: #4E0DFF;
     margin: auto;
 }
 
 #log {
-    background-color: aquamarine;
+    background-color: #0C0CE8;
     margin: auto;
 }
 

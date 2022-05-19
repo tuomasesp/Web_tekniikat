@@ -30,10 +30,7 @@
                 <a class="nav-link" href="#">Page 3</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Page 4</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Drink from the cup of</a>
+                <a class="nav-link disabled">Tervetuloa sivustolle!</a>
               </li>
             </ul>
           </div>
@@ -41,12 +38,13 @@
     </nav>
 <!-- Etusivun sisältö -->
 <header>
-  <h1>Suomi</h1>
 </header>
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-12" id="log">
-              <p>Paragraph</p>
+              <div>
+                <img src="../images/finland.png" alt="Suomen rajat lipulla" id="suomi">
+              </div>
             </div>
             <div class="col-md-6 col-sm-12" id="enn">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam quibusdam delectus non, temporibus voluptates ratione dolorum distinctio corporis sapiente explicabo. Explicabo sit praesentium et natus laboriosam repellendus officia accusamus.
@@ -57,16 +55,30 @@
               Necessitatibus vitae labore maiores explicabo, reiciendis tenetur quidem quis, quaerat odio deleniti soluta recusandae molestiae autem harum culpa tempora rem dolor optio laborum! Iusto, aliquam reprehenderit maiores dolor praesentium reiciendis.</p>
             </div>
             <div class="col-md-3 col-sm-12" id="lista">
-              <ul>
-                <li>Ele 1</li>
-                <li>El2</li>
-                <li>el3</li>
-                <li>el4</li>
-                <li>el5</li>
-                <li>el6</li>
-                <li>el7</li>
-                <li>el8</li>
-              </ul>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Pelaajalistaus
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      
+                      <ul>
+                        <li>Ele 1</li>
+                        <li>El2</li>
+                        <li>el3</li>
+                        <li>el4</li>
+                        <li>el5</li>
+                        <li>el6</li>
+                        <li>el7</li>
+                        <li>el8</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              
             </div>
         </div>
         <div class="row">
