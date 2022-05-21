@@ -4,14 +4,22 @@ body {
     background-image: url(../images/lion.jpg); /* https://pixabay.com/fi/photos/leijona-saalistaja-harja-iso-kissa-3317670/ */
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .container-fluid {
-    background-color: #0DCDFF;
+    background-color: #0046FF
+    ;
 }
 
 .container {
-    margin: 30px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #0DCDFF;
+    opacity: 0.9;
+    width: 70%;
+    align-content: space-around;
 }
 
 footer {
@@ -41,12 +49,17 @@ footer {
 }
 
 #lista {
-    background-color: #0C80E8;
+    background-color: #00FFA6;
     margin: auto;
 }
 
+ul {
+    list-style: none;
+}
+
+
 #enn {
-    background-color: #4E0DFF;
+    background-color: #00FFA6;
     margin: auto;
 }
 
@@ -58,5 +71,5 @@ footer {
 /* pelaajat.html sisällön stylejä */ 
 
 .accordion-button {
-    background-color: #0044FF;
+    background-color: #0046FF;
 }
