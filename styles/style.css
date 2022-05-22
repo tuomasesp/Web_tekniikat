@@ -29,24 +29,8 @@ footer {
 }
 
 .row {
-    border: 1px solid black;
-}
-
-/* https://pixabay.com/fi/vectors/suomi-kartta-lippu-eurooppa-maa-881128/  */
-#suomi {
-    height: 500px;
-    width: 200px;
-}
-
-#etenee {
-    height: 50px;
-    width: 100px;
-    padding: 50px;
-    text-align: center;
-}
-
-#tähti {
-    border: 1px solid black;
+    
+    padding-top: 10px;
 }
 
 #lista {
@@ -58,6 +42,16 @@ ul {
     list-style: none;
 }
 
+#log {
+    box-sizing: border-box;
+    background-color: #00FFA6;
+}
+
+#log img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
 
 #enn {
     background-color: #00FFA6;
