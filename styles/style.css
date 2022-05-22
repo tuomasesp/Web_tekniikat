@@ -35,7 +35,7 @@ footer {
 
 #lista {
     background-color: #00FFA6;
-    margin: auto;
+    
 }
 
 ul {
@@ -43,28 +43,34 @@ ul {
 }
 
 #log {
-    box-sizing: border-box;
+    
     background-color: #00FFA6;
 }
 
 #log img {
     max-width: 100%;
-    max-height: 100%;
-    
+    max-height: 100%;   
+}
+
+#tähti {
+    background-color: #00FFA6;
 }
 
 #enn {
     background-color: #00FFA6;
-    margin: auto;
+    
 }
 
-#log {
-    background-color: #0C0CE8;
-    margin: auto;
+footer {
+    background-color: #00FFA6;
+    margin-top: 30px;
 }
-
 /* pelaajat.html sisällön stylejä */ 
 
 .accordion-button {
     background-color: #0046FF;
+}
+
+.accordion-body {
+    background-color: #00FFA6;
 }

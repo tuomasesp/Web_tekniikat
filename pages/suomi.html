@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web-tekniikat -kurssin sivusto</title>
+    <title>Web-tekniikat -opintojakson sivusto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
     <!-- <link rel="stylesheet" href="../styles/SCSS/built-style.css"> -->
@@ -44,57 +44,83 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-12" id="log">
+              <h4>"Logo"</h4>
               <div><img src="../images/graphic_lion.jpg" alt="Graafinen leijona"></div>
             </div>
-            <div class="col-md-6 col-sm-12" id="enn">
+            <div class="col-md-5 col-sm-12" id="enn">
               <h4>Ennakko</h4>
               <p>Suomen jääkiekkomaajoukkue lähtee tavoittelemaan kotikisoista maailmanmestaruutta. Mestaruus olisi upea kruunu historiallisen olympiakultavuoden päätteeksi. <br> <br> Upealla Tampereen Nokia-areenalla pelattavissa otteluissa leijonia kannattava fanaattinen kotiyleisö ei voisi päästä parempiin olosuhteisiin. 
                 Joukkueen runko muodostuu olympialaisissa loistaneista pelaajista. Kaiken kruunuksi NHL:sta vapautui muutama kärkiluokan pelaaja täydentämään Jukka Jalosen täydellisesti roolittamaa joukkuetta. <br> <br> On sanomattakin selvää, että Leijonien ainoa tavoite tässä turnauksessa on voitto. On ollut hienoa päästä seuraamaan ikuisen altavastaajan nousua kohti nykyistä tilannetta, jossa Leijonat on ennakkosuosikki.</p>
             </div>
-            <div class="col-md-3 col-sm-12" id="lista">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Pelaajalistaus
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      
-                      <ul>
-                        <li>Maalivahdit</li>
+            <div class="col-md-4 col-sm-12" id="lista">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Maalivahdit
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <ul class="maalivahdit">
                         <li>Jussi Olkinuora</li>
                         <li>Harri Säteri</li>
                         <li>Frans Tuohimaa</li>
-                        <li>Puolustajat</li>
-                        <li>el5</li>
-                        <li>el6</li>
-                        <li>el7</li>
-                        <li>el8</li>
-                        <li>el5</li>
-                        <li>el6</li>
-                        <li>el7</li>
-                        <li>el8</li>
-                        <li>el5</li>
-                        <li>el6</li>
-                        <li>el7</li>
-                        <li>el8</li>
-                        <li>el5</li>
-                        <li>el6</li>
-                        <li>el7</li>
-                        <li>el8</li>
                       </ul>
-                    </div>
                   </div>
                 </div>
-              
-            </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Puolustajat
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <ul class="puolustajat">
+                        <li>Niklas Friman</li>
+                        <li>Juuso Hietanen</li>
+                        <li>Mikko Lehtonen</li>
+                        <li>Atte Ohtamaa</li>
+                        <li>Ville Pokka</li>
+                        <li>Mikael Seppälä</li>
+                        <li>Sami Vatanen</li>
+                        <li>Vara</li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Hyökkääjät
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="hyökkääjät">
+                      <li>Joel Armia</li>
+                      <li>Marko Anttila</li>
+                      <li>Hannes Björninen</li>
+                      <li>Valtteri Filppula</li>
+                      <li>Teemu Hartikainen</li>
+                      <li>Jere Innala</li>
+                      <li>Juho Lammikko</li>
+                      <li>Sakari Manninen</li>
+                      <li>Saku Mäenalanen</li>
+                      <li>Harri Pesonen</li>
+                      <li>Toni Rajala</li>
+                      <li>Jere Sallinen</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
         </div>
+      </div>
         <div class="row">
-          <div class="col-md-3 col-sm-12">
+          <div class="col-md-3 col-sm-12" id="tähti">
             <h4>Tähtipelaaja</h4> 
-            <p id="tähti">Leijonien itseoikeutettu tähtipelaaja näissä kisoissa on Mikael Granlund. </p>
+            <p>Leijonien itseoikeutettu tähtipelaaja näissä kisoissa on Mikael Granlund. NHL:ssakin hyvällä tasolla pelaava hyökkääjä nostaa maajoukkuepaidassa pelaamisensa tasoa aina vähintään pari pykälää korkeammalle.</p>
           </div>
         </div>
     </div>
