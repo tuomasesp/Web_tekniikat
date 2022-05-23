@@ -9,8 +9,7 @@ body {
 }
 
 .container-fluid {
-    background-color: #0046FF
-    ;
+    background-color: #0046FF;
 }
 
 .container {
@@ -29,13 +28,11 @@ footer {
 }
 
 .row {
-    
     padding-top: 10px;
 }
 
 #lista {
     background-color: #00FFA6;
-    
 }
 
 ul {
@@ -43,7 +40,6 @@ ul {
 }
 
 #log {
-    
     background-color: #00FFA6;
 }
 
@@ -65,7 +61,8 @@ footer {
     background-color: #00FFA6;
     margin-top: 30px;
 }
-/* pelaajat.html sisällön stylejä */ 
+
+/* Accordionien tyylimuokkaukset */ 
 
 .accordion-button {
     background-color: #0046FF;

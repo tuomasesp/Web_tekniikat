@@ -9,8 +9,7 @@ body {
 }
 
 .container-fluid {
-    background-color: #0046FF
-    ;
+    background-color: #0046FF;
 }
 
 .container {
@@ -28,35 +27,46 @@ footer {
     text-align: center;
 }
 
-
-/* https://pixabay.com/fi/vectors/suomi-kartta-lippu-eurooppa-maa-881128/  */
-#suomi {
-    height: 500px;
-    width: 200px;
+.row {
+    padding-top: 10px;
 }
 
 #lista {
     background-color: #00FFA6;
-    margin: auto;
 }
 
 ul {
     list-style: none;
 }
 
+#log {
+    background-color: #00FFA6;
+}
+
+#log img {
+    max-width: 100%;
+    max-height: 100%;   
+}
+
+#tähti {
+    background-color: #00FFA6;
+}
 
 #enn {
     background-color: #00FFA6;
-    margin: auto;
 }
 
-#log {
-    background-color: #0C0CE8;
-    margin: auto;
+footer {
+    background-color: #00FFA6;
+    margin-top: 30px;
 }
 
-/* pelaajat.html sisällön stylejä */ 
+/* Accordionien tyylimuokkaukset */ 
 
 .accordion-button {
     background-color: #0046FF;
+}
+
+.accordion-body {
+    background-color: #00FFA6;
 }
