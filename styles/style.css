@@ -31,9 +31,9 @@ footer {
     padding-top: 10px;
 }
 
-#lista {
-    background-color: #00FFA6;
-}
+/* #lista {
+    background-color: #00FFA6; 
+} */
 
 ul {
     list-style: none;
@@ -54,12 +54,19 @@ ul {
 
 #enn {
     background-color: #00FFA6;
-    
+}
+
+.nhl {
+    background-color: #00FFA6;
 }
 
 footer {
     background-color: #00FFA6;
     margin-top: 30px;
+}
+
+.granlund {
+    background-color: #0DCDFF;
 }
 
 /* Accordionien tyylimuokkaukset */ 
