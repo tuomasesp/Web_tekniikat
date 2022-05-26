@@ -1,72 +1,73 @@
 /* Tuomas Polvinen */
 
+//Käytetyt värit variableina 
+$pohjaväri: #0DCDFF;
+$taustaväri: #00FFA6;
+$navinväri: #0046FF;
+
 body {
-    background-image: url(../images/lion.jpg); /* https://pixabay.com/fi/photos/leijona-saalistaja-harja-iso-kissa-3317670/ */
+    background-image: url(../../images/lion.jpg); /* https://pixabay.com/fi/photos/leijona-saalistaja-harja-iso-kissa-3317670/ */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container-fluid {
-    background-color: #0046FF;
-}
+div {
+    .container-fluid {
+        background-color: $navinväri;
+    }
+    .container {
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: $pohjaväri;
+        opacity: 0.9;
+        width: 70%;
+        align-content: space-around;
+    }
+    .row {
+        padding-top: 10px;
+    }
+    #log {
+        background-color: $taustaväri;
+        img {
+            max-width: 100%;
+            max-height: 100%;   
+        }
+    }
+    #tähti {
+        background-color: $taustaväri;
+    }
+    #enn {
+        background-color: $taustaväri;
+    }
 
-.container {
-    margin: auto;
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #0DCDFF;
-    opacity: 0.9;
-    width: 70%;
-    align-content: space-around;
+
+    .accordion-button {
+        background-color: $navinväri;
+    }
+    
+    .accordion-body {
+        background-color: $taustaväri;
+    }
 }
 
 footer {
-    background-color: #0DCDFF;
+    background-color: $taustaväri;
     text-align: center;
-}
-
-.row {
-    padding-top: 10px;
-}
-
-#lista {
-    background-color: #00FFA6;
+    margin-top: 30px;
 }
 
 ul {
     list-style: none;
 }
 
-#log {
-    background-color: #00FFA6;
-}
-
-#log img {
-    max-width: 100%;
-    max-height: 100%;   
-}
-
-#tähti {
-    background-color: #00FFA6;
-}
-
-#enn {
-    background-color: #00FFA6;
-}
-
-footer {
-    background-color: #00FFA6;
-    margin-top: 30px;
-}
-
-/* Accordionien tyylimuokkaukset */ 
-
-.accordion-button {
-    background-color: #0046FF;
-}
-
-.accordion-body {
-    background-color: #00FFA6;
+li {
+    .nhl {
+        background-color: $taustaväri;
+    }
+    .granlund {
+        background-color: $pohjaväri;
+    }
 }
