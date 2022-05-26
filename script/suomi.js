@@ -1,13 +1,13 @@
 // Tämän js:n tarkoituksena nostaa Granlund esille listalta
-// mouseoveria käyttäen. Muuttaa samalla tähti-laatikon muotoilun. 
+// mouseoveria käyttäen.  
 
-let nhl = document.querySelector("#granlund");
-let tähti = document.getElementById("tähti");
+let nhl = document.querySelector("#granlund")
+
 nhl.addEventListener("mouseover", näytäGranlund);
-tähti.addEventListener("mouseover", näytäGranlund);
-
+nhl.addEventListener("mouseleave", näytäGranlund);
 
 function näytäGranlund() {
-    nhl.classList="granlund";
-    tähti.classList="granlund";
+    nhl.classList.toggle("granlund");
+    
 }
+
